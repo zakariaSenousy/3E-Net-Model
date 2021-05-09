@@ -350,8 +350,8 @@ if args.testset_path is '':
 
 if args.network == '1':
     pw_model_P2_1 = models_P2_1.PatchWiseModel(args, pw_network_P2_1)
-    #pred = pw_model_P2_1.test(args.testset_path)
-    vis = pw_model_P2_1.visualize_last(args.testset_path)
+    pred = pw_model_P2_1.test(args.testset_path)
+    #vis = pw_model_P2_1.visualize_last(args.testset_path)
   
     #Feature_extractor_Ensemble(pred1, pred2, pred3, pred4, mode = 'test')
     #Single_Feature_extractor(pred, mode = 'valid')
