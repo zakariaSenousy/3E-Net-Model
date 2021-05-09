@@ -293,7 +293,7 @@ if args.cuda:
 pw_network_P2_1 = networks_P2_1.PatchWiseNetwork(args.channels)
 iw_network_P2_1 = networks_P2_1.ImageWiseNetwork(args.channels)
     
-"""pw_network_P2_2 = networks_P2_2.PatchWiseNetwork(args.channels)
+pw_network_P2_2 = networks_P2_2.PatchWiseNetwork(args.channels)
 iw_network_P2_2 = networks_P2_2.ImageWiseNetwork(args.channels)
     
 pw_network_P2_3 = networks_P2_3.PatchWiseNetwork(args.channels)
@@ -339,7 +339,7 @@ pw_network_P11 = networks_P11.PatchWiseNetwork(args.channels)
 iw_network_P11 = networks_P11.ImageWiseNetwork(args.channels)
     
 pw_network_P12 = networks_P12.PatchWiseNetwork(args.channels)
-iw_network_P12 = networks_P12.ImageWiseNetwork(args.channels)"""
+iw_network_P12 = networks_P12.ImageWiseNetwork(args.channels)
 
 #--------------------------------------------------------------
 
